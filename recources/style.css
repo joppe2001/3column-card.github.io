@@ -48,6 +48,11 @@ p {
 
 .icons {
     width: 100%;
+    transition: ease-out 2s;
+}
+
+.icons:hover {
+    padding-left: 70%;
 }
 
 .icons img {
@@ -66,11 +71,12 @@ p {
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 12.5%;
+    height: 10%;
     border-radius: 2rem;
     border: none;
     transition: ease-out 0.5s;
     top: 3%;
+    box-shadow: 2px 2px 9px;
     /* left: 1%; */
 }
 
